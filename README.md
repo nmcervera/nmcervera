@@ -4,7 +4,18 @@
 - 💞️ I’m looking to collaborate on ... Web Development projects
 - 📫 How to reach me ... cerveranicolas@gmail.com
 
-<!---
-nmcervera/nmcervera is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## MedicApp
+
+Este proyecto es un ejemplo simple de una aplicación para gestionar reservas de consultorios médicos.
+Incluye funcionalidades básicas para que médicos y pacientes puedan consultar y actualizar la
+historia clínica, así como crear reservas de turnos médicos.
+
+Para ejecutarlo de manera local:
+
+```bash
+cd medicapp
+pip install -r requirements.txt
+python app.py
+```
+
+La aplicación utiliza Flask y mantiene los datos en memoria para fines demostrativos.
